@@ -409,8 +409,8 @@ nav ul li a:hover:after {
 
   }
 #subtitle-first{
-    font-size: 0.5em;
-    font-weight: 400;
+    font-size: 0.6em;
+    font-weight:500;
     text-align: center;
 
 
@@ -465,6 +465,7 @@ a{
       color: var(--neutral-color);
       margin-left: 20px;
       margin-right: 20px;
+    
     }
     .content-container {
       width: 100%;
@@ -503,13 +504,23 @@ a{
     }
   }
   @media (max-width: 560px) {
-    .svg-bg > svg {
-      width: 240%;
+    .first-page {
+      background-color: var(--darker-blue);
+      margin-bottom: 50px;
+      height: 400px;
+    }
+    .svg-bg{
+      display: none;
     }
   }
   @media (max-width: 420px) {
-    .svg-bg > svg {
-      width: 300%;
+    .first-page {
+      background-color: var(--darker-blue);
+      margin-bottom: 50px;
+      height: 400px;
+    }
+    .svg-bg{
+      display: none;
     }
   }
   @media (max-width: 390px) {
@@ -562,16 +573,17 @@ a{
 
   @media (max-width: 920px){
     .feature-subtext{
-      font-size: 1.5em;
+      font-size: 1.2em;
       width: 100%;
       font-weight: 600;
-
+      
     }
     .feature-first-text{
       margin-bottom: 60px;
     }
     #feature-title{
-      font-size: 2.5em;
+      margin-bottom: 10px;
+      font-size: 2em;
     }
     .left.animate__fadeInUp {
       animation: leftAnim .7s ease-out;
@@ -894,7 +906,7 @@ color: var(--neutral-color);
     font-size: 2em;
   }
   #what-drives-text{
-    text-align: center;
+    text-align: justify;
     font-size: 1.2em;
 
   }
@@ -1047,7 +1059,7 @@ color: var(--neutral-color);
       font-size: 2.1em;
     }
     #pricing-text{
-      text-align: center;
+      text-align: justify;
       font-size: 1.2em;
     }
     .price-card.animate__fadeInUp{
@@ -1253,7 +1265,7 @@ transition: all 0.2s ease-in-out;
     margin-left: 0;
     text-align: center;
   }
-  .subcontainers-footer {
+  .title-footer {
     display: none;
   }
 
