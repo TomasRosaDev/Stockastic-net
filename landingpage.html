@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stockastic - Home</title>
+    <link rel="shortcut icon" href="fav.png.png" type="image/x-icon">
+    <link rel="stylesheet" href="landingpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&family=Roboto+Slab:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <section class="first-page" id="first-page">
+            <div id="particles-js"></div>
+            <nav id="navbar">
+                <div class="logo">
+                    <div class="logoimg"></div>
+                    <a href="#first-page" class="logo">Stockastic</a>
+                </div>
+                <input type="checkbox" id="click" />
+                <label for="click" class="menu-btn">
+                    <i class="menu-icon" onclick="RotateClass()" id="menu-icon-id">
+                        <svg width="37" height="30" viewBox="0 0 37 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3H34" stroke="var(--neutral-color)" stroke-width="5" stroke-linecap="round" />
+                            <path d="M3 15H34" stroke="var(--neutral-color)" stroke-width="5" stroke-linecap="round" />
+                            <path d="M3 27H34" stroke="var(--neutral-color)" stroke-width="5" stroke-linecap="round" />
+                        </svg>
+                    </i>
+                </label>
+                <ul>
+                    <li><a href="#scroll-to">Features</a></li>
+                    <li><a href="#problem-scroll">Problem</a></li>
+                    <li><a href="#mission-scroll">Our mission</a></li>
+                    <li><a id="get-started-btn" href="http://stockastic.herokuapp.com/">Demo</a></li>
+                </ul>
+            </nav>
+            <div class="svg-bg">
+                <svg width="100%" height="100%" viewBox="0 0 1920 828" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 647.029C424 822.353 1150.4 1030.63 1920 417.582V0L0 0V647.029Z"
+                        fill="url(#paint0_radial_173_40)" />
+                    <defs>
+                        <radialGradient id="paint0_radial_173_40" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(921 288.787) rotate(-90) scale(209.99 720.897)">
+                            <stop stop-color="var(--gradient-color-light)" />
+                            <stop offset="1" stop-color="var(--gradient-color-dark)" />
+                        </radialGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="content-container">
+
+                <div class="midtext-container">
+                    <p id="title-first" class="animate__fadeInDown">
+                        Make smarter investment
+                        <br>
+                        decisions with us
+                    </p>
+                    <p id="subtitle-first" class="animate__fadeInUp">Start investing the smart way with
+                        Stockastic!</p>
+                </div>
+                <a href="#scroll-to">
+                    <svg id="down-arrow-svg" viewBox="0 0 41 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 3L20.5 20L38 3" stroke="var(--neutral-color)" stroke-width="6"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </a>
+            </div>
+        </section>
+        <section class="feature-section margin" id="scroll-to">
+            <div class="feature-first-text">
+                <h2 class="blue-title" id="feature-title">Learn more about <br>
+                    Stockastic’s features!</h2>
+                <p class="feature-subtext">Join us and check out all the tools we have in place to make you a better
+                    investor</p>
+            </div>
+            <div class="feature-container">
+                <div class="feature-item left" id="learn-investing">
+                    <div class="feature-image">
+                        <img src="investing-icon.png" alt="" srcset="">
+                    </div>
+                    <div class="feature-item-text">
+                        <p class="feature-item-title">Learn about investing</p>
+                        <p class="feature-item-subtext">Learn about market patterns and safe proof your investment
+                            strategies by drawing as many forecasts as you want.</p>
+                    </div>
+                </div>
+                <div class="feature-item center" id="join-community">
+                    <div class="feature-image"> <img src="community-icon.png" alt="" srcset="">
+                    </div>
+                    <div class="feature-item-text">
+                        <p class="feature-item-title">Join our community</p>
+                        <p class="feature-item-subtext">Discuss the latest news in the
+                            world of finance with fellow
+                            enthusiasts and gain insight and
+                            experience.</p>
+                    </div>
+                </div>
+                <div class="feature-item right" id="get-info">
+                    <div class="feature-image">
+                        <img src="info-icon.png" alt="" srcset="">
+                    </div>
+                    <div class="feature-item-text">
+                        <p class="feature-item-title">Get unbiased information</p>
+                        <p class="feature-item-subtext">Steer clear of harmful bias by accessing hundreds of
+                            weighed
+                            mainstream
+                            sources in one single platform.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="problem-section" id="problem-scroll">
+            <div class="problem-content margin">
+                <div class="problem-left-container">
+                    <p class="white-title" id="problem-title">The stock market <br>
+                        is complex</p>
+                    <p class="gray-text" id="problem-subtext">
+                        Hundreds of financial indicators, thousands of news sources, and a <span
+                            class="light-highlight">slurry of misinformation</span>
+                        This
+                        is what every <span class="light-highlight">investor has to endure</span> to try and make good,
+                        informed decisions.
+                    </p>
+                </div>
+                <img src="trading-dark.png" class="problem-image" alt="" srcset="">
+
+            </div>
+        </section>
+        <section class="solution-section margin">
+            <img src="news-grid.png" class="problem-image" alt="" srcset="">
+            <div class="solution-text-container">
+                <p class="our-solution">Our solution?</p>
+                <p class="blue-title" id="solution-title">A simplified and intuitive platform.</p>
+                <p class="gray-text" id="solution-text">Stockastic takes information from all corners of the internet
+                    and condenses it into
+                    a <span class="dark-highlight">single platform</span>, making investing <span
+                        class="dark-highlight">easier than ever</span>.</p>
+                <a href="https://www.youtube.com/" class="try-it-btn">Try it out!</a>
+            </div>
+
+        </section>
+        <section class="what-drives-section " id="mission-scroll">
+            <div class="what-drives-container margin">
+                <div class="what-drives-text">
+                    <p class="white-title" id="what-drives-title">What drives us?</p>
+                    <p class="gray-text" id="what-drives-text">We believe investment <span
+                            class="light-highlight">knowledge</span> should be <span class="light-highlight">available
+                            to
+                            everyone</span>. <br> This is why we created <span
+                            class="light-highlight">Stockastic</span>, a
+                        solution at
+                        everyone's reach to <span class="light-highlight">improve financial literacy</span> and <span
+                            class="light-highlight">investing decisions</span>.
+                    </p>
+                </div>
+                <video autoplay muted loop id="rocket-vid">
+                    <source src="rocket-render.webm" type="video/webm" />
+                </video>
+            </div>
+
+        </section>
+        <section class="pricing-section margin">
+            <div class="pricing-text-container">
+                <p class="blue-title" id="pricing-title">Choose your <br> preferred plan!</p>
+                <p class="gray-text" id="pricing-text">
+                    Do you feel like sentiment analysis isn't enough and you are needing a level up? Get access to
+                    unlimited forecasts with our premium subscription and discover Stockastic's full potential.
+                </p>
+            </div>
+            <div class="price-card-container">
+                <div class="price-card">
+                    <p class="price-plan">Standard</p>
+                    <p class="price-box">Free</p>
+                    <div class="price-list">
+                        <p>Acess to sentiment analysis</p>
+                        <p>Educational content</p>
+                    </div>
+                    <button class="pricing-button" href="#">
+                        <svg id="down-arrow-price" viewBox="0 0 191 191" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="95.5" cy="95.5" r="95.5" />
+                            <path d="M156 78L95.5 138L35 78" stroke-width="25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="price-card">
+                    <p class="price-plan">Premium</p>
+                    <p class="price-box">$9/ Month</p>
+                    <div class="price-list">
+                        <p>All "Standard" features</p>
+                        <p>Access to forecasts</p>
+                    </div>
+                    <button class="pricing-button" href="#">
+                        <svg id="down-arrow-price" viewBox="0 0 191 191" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="95.5" cy="95.5" r="95.5" />
+                            <path d="M156 78L95.5 138L35 78" stroke-width="25" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <section class="supported-by-section margin">
+            <p class="supported-by">Supported By:</p>
+
+            <a href="https://www.harvardventures.org/"><img class="harvard-logo" src="harvard-ventures.png"
+                    alt="Harvard ventures">
+            </a>
+        </section>
+        <footer>
+            <div class="footer" id="footer">
+                <div class="text-container-footer">
+                    <div class="logo">
+                        <div class="logoimg"></div>
+                        <a href="#first-page" id="footer-logo" class="logo">Stockastic</a>
+                    </div>
+                    <div class="subcontainers-footer">
+                        <p class="title-footer">Get in touch!</p>
+                        <p></p>
+                        <a href="mailto:contact@" class="link-footer"><span class="darker"><i
+                                    class="fa-solid fa-envelope"></i></span>
+                            contact@stockastic.org</a>
+                    </div>
+                    <p class="terms-conditions">©Stockastic 2022</p>
+                </div>
+                <form action="https://sheetdb.io/api/v1/4o4zlrz0gdlgm" method="post" id="sheetdb-form">
+                    <div class="container-form margin">
+                        <h2 class="form-contact">Get in touch!</h2>
+                        <div class="clearfix">
+                            <input type="text" placeholder="Your name" name="data[name]" required>
+                            <input type="text" placeholder="Email" name="data[email]" required>
+                        </div>
+                        <input type="text" placeholder="Message" name="data[message]" required>
+
+
+                        <div class="clearfix">
+                            <button type="submit" class="signupbtn">Submit</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
