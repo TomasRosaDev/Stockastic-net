@@ -733,10 +733,11 @@ font-weight: 500;
   #problem-title{
     text-align: center;
     width: 100%;
-    font-size: 3em;
+    font-size: 2.2em;
   }
   #problem-subtext{
     margin: 0 8vw 0 8vw;
+    font-size: 1.2em;
   }
 }
 
@@ -843,7 +844,7 @@ width: 50%;
     text-align: center;
   }
   #solution-text{
-    text-align: center;
+    text-align: justify;
     font-size: 1.2em;
   }
 }
