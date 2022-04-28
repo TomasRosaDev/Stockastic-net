@@ -571,7 +571,7 @@ a{
       margin-bottom: 60px;
     }
     #feature-title{
-      font-size: 2.5em;
+      font-size: 1.8em;
     }
     .left.animate__fadeInUp {
       animation: leftAnim .7s ease-out;
@@ -894,7 +894,7 @@ color: var(--neutral-color);
     font-size: 2em;
   }
   #what-drives-text{
-    text-align: center;
+    text-align: justify;
     font-size: 1.2em;
 
   }
@@ -1047,7 +1047,7 @@ color: var(--neutral-color);
       font-size: 2.1em;
     }
     #pricing-text{
-      text-align: center;
+      text-align: justify;
       font-size: 1.2em;
     }
     .price-card.animate__fadeInUp{
