@@ -742,6 +742,7 @@ font-weight: 500;
   #problem-subtext{
     margin: 0 8vw 0 8vw;
     font-size: 1.2em;
+    text-align: center;
   }
 }
 
@@ -845,7 +846,7 @@ width: 50%;
     text-align: center;
   }
   #solution-text{
-    text-align: justify;
+    text-align: center;
     font-size: 1.2em;
   }
 }
@@ -908,7 +909,7 @@ color: var(--neutral-color);
     font-size: 2em;
   }
   #what-drives-text{
-    text-align: justify;
+    text-align: center;
     font-size: 1.2em;
 
   }
@@ -1042,7 +1043,7 @@ color: var(--neutral-color);
       font-size: 2.1em;
     }
     #pricing-text{
-      text-align: justify;
+      text-align: center;
       font-size: 1.2em;
     }
     .price-card.animate__fadeInUp{
