@@ -489,7 +489,11 @@ a{
       transition: 0.70s;
       z-index: 30;
     }
- 
+    #title-first{
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      }
   }
   /*************   SVG BG *************/
   
@@ -996,6 +1000,7 @@ color: var(--neutral-color);
   }
   .pricing-button{
     border: none;
+    background-color: transparent;
   }
   #down-arrow-price{
     height: 40px;
@@ -1106,7 +1111,7 @@ color: var(--neutral-color);
 /**************** FOOTER ********************/
 
 .footer {
-  margin-top: 15vh;
+  margin-top: 30px;
   position: relative;
   width: 100%;
   bottom: 0;
@@ -1147,6 +1152,17 @@ color: var(--neutral-color);
   text-align: center;
   width: fit-content;
   color: var(--neutral-color);
+}
+.subcontainers-footer{
+  display: flex;
+  flex-direction: column;
+}
+.linkdin-link{
+  margin-top: 10px;
+
+}
+.linkdin-link > img{
+  width: 60px;
 }
 .terms-conditions {
   color: #c5c5c5;
@@ -1270,5 +1286,9 @@ transition: all 0.2s ease-in-out;
   }
   .form-contact{
     display: block;
+  }
+  .linkdin-link{
+    margin-top: 20px;
+  
   }
 }
