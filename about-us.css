@@ -1,0 +1,99 @@
+/* ---Team Section--- */
+.who-are-we-title {
+    padding-top: 10vh;
+    font-size: 2.5em;
+    font-weight: 900;
+    text-align: center;
+    color: var(--main-blue);
+  }
+  .team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-container {
+    padding-top: 15vh;
+    width: 70vw;
+    height: fit-content;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    gap: 100px;
+  }
+  .team-member {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-portrait {
+    width: 14vw;
+    border-radius: 50%;
+  }
+  
+  .team-portrait > img {
+    background-size: cover;
+  }
+  .bottom-container {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+  }
+  .linkedin-logo > img {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .linkedin-logo {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+  }
+  .member-name {
+    color: var(--darker-color);
+    font-weight: 900;
+    font-size: 1.1em;
+  }
+  .member-job {
+    color: var(--highlight-blue);
+  }
+  .bold {
+    font-weight: 900;
+  }
+  .nav-bg {
+    transition: all 1s ease;
+    background-color: var(--main-blue);
+    font-size: 0.8em;
+  }
+  @media (max-width: 920px) {
+    .team-container {
+      width: 100%;
+      gap: 90px;
+    }
+    .member-text {
+      font-size: 0.9em;
+      padding-right: 15px;
+    }
+    .team-portrait {
+      width: 25vw;
+      border-radius: 50%;
+    }
+  }
+  @media (max-width: 425px) {
+    .team-container {
+      width: 100%;
+      gap: 90px;
+    }
+    .team-portrait {
+      width: 45vw;
+      border-radius: 50%;
+    }
+  }
